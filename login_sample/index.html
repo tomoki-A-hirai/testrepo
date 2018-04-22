@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>login with css sample</title>
+		<link rel="stylesheet" href="./css/bootstrap.css">
+	</head>
+	<body>
+		<header class="jumbotron">
+			<h1>login page index</h1>
+		</header>
+		<div class="container">
+			<form  class="form-inline" action="auth.php" method="post">
+				<div class="form-group col-md-3">
+					<label for="userID">userID</label>
+					<input type="text" name="userID" >
+				</div>
+				<div class="form-group col-md-3">
+					<label for="pass">password</label>
+					<input type="password" name="pass">
+				</div>
+				<input type="submit" value="login" class="btn btn-lg btn-success col-md-1">
+				<a href="signup.html" class="col-md-3"><input type="button" value = "sign up" class="btn btn-lg btn-success"></a>
+			</form>
+
+		</div>
+	</body>
+</html>
