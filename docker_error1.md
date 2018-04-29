@@ -47,5 +47,5 @@ linux コマンドのエミュレート？のための？control group のマウ
 ただ、docker tool boxのコンフィグをいじった記憶はないし、vagrantのインストールでその辺がいじられたというのも考えにくいか。。。
 
 20180429現在根本的原因不明
-なぜかminGW64を再起動(exit してから docker tool box shortcut double click)すると何事もなかったかのようにコンテナをrunさせることができる。
+なぜかvmを再起動すると何事もなかったかのようにコンテナをrunさせることができる。
 う～ん謎だ。。。
